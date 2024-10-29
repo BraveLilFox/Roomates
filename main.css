@@ -113,3 +113,13 @@ hr{
     top: -30px;
     left: -60px;
 }
+
+#mtn-1:after{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #F28F3B;
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
