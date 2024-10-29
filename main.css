@@ -106,7 +106,7 @@ hr{
     height: 200px;
     border-radius: 50%;
     background: #F28F3B;
-    position: absolute;
+    position: relative;
     top: 30;
     left: 60;
 }
