@@ -71,7 +71,7 @@ label{
 
 input, select{
     display: block;
-    width: 95vw;
+    width: 95%;
     margin: 1em 0 0 0;
 }
 
@@ -84,7 +84,7 @@ input, select{
 
 input[type="submit]{
     display: block;
-    width: 60vw
+    width: 60%;
     margin: 1.5em auto;
     height: 2em;
     font-size: var(--font-sm);
