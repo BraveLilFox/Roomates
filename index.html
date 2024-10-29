@@ -16,45 +16,40 @@
             <hr>
             <form class="feeding-log">
                 <fieldset>
-                    
-                    <label for="dropdown" class="spacer">Who fed them?
-                        <select id="dropdown" name="dropdown">
-                            <option value="names" class="grey-out" disabled="disabled" selected="selected">select name</option>
-                            <option value="Dove">Dove</option>
-                            <option value="Kaide">Kaide</option>
-                            <option value="Ren">Ren</option>
-                        </select>
-                    </label>
 
-                    <legend class="spacer">Which meal was it?
-                        <label for="breakfast">
-                            <input type="radio" id="breakfast" name="breakfast" value="breakfast" class="inline">Breakfast
+                    <legend class="spacer">Who fed them?
+                        <label for="dove roomate">
+                            <input type="radio" id="dove" name="dove" value="dove" class="inline">Dove
                         </label>
 
-                        <label for="lunch/snack">
-                            <input type="radio" id="lunch-snack" name="lunch-snack" value="lunch-snack" class="inline">Lunch/Snack
+                        <label for="kaide roomate">
+                            <input type="radio" id="kaide" name="kaide" value="kaide" class="inline">Kaide
                         </label>
 
-                        <label for="dinner">
-                            <input type="radio" id="dinner" name="dinner" value="dinner" class="inline">Dinner
+                        <label for="ren roomate">
+                            <input type="radio" id="ren" name="ren" value="ren" class="inline">Ren
                         </label>
                     </legend>
+
+                    <label for="dropdown" class="spacer">Who fed them?
+                        <select id="dropdown" name="dropdown">
+                            <option value="meal-time" class="grey-out" disabled="disabled" selected="selected">meal time</option>
+                            <option value="breakfast">Breakfast</option>
+                            <option value="lunch">Lunch/Snack</option>
+                            <option value="dinner">Dinner</option>
+                        </select>
+                    </label>
                     
-                    <legend class="spacer">Grievences to declare:
-                        <label for="dinner">
-                            <input type="radio" id="dinner" name="dinner" value="dinner" class="inline">Dinner
-                        </label>
-                        
-                        <label for="dinner">
-                            <input type="radio" id="dinner" name="dinner" value="dinner" class="inline">Dinner
-                        </label>
-                        
+                    <legend for="grivence" class="spacer">Grievences to declare:
+                        <textarea id="grivence" name="grivence" rows="2" cols="6">Write them here</textarea>
                     </legend>
                     
                 </fieldset>
                 <input type="submit" name="submit" id="submit" class="inline">
             </form>
         </div>
-        <div id="mtn-1"></div>
+        <div id="paw print">
+            <img src="Untitled-1.png" alt="paw-print">
+        </div>
     </body>
 </html>
