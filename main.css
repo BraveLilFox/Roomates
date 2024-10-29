@@ -105,8 +105,7 @@ input[type="submit"]{
 hr{
     margin-bottom: 1em;
 }
-
-#mtn-1{
+/* #mtn-1{
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -124,4 +123,10 @@ hr{
     position: relative;
     top: 30px;
     left: 60px;
+} */
+
+.paw-print{
+    position: relative;
+    top: 50%;
+    left: 50%;
 }
