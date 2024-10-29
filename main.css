@@ -33,3 +33,19 @@ html{
     padding: 10em 5em;
     border-radius: 3em;
 }
+
+h1{
+    font-size: var(--font-lg);
+}
+
+p{
+    font-size: var(--font-md);
+}
+
+legend{
+    font-size: var(--font-md);
+}
+
+label{
+   font-size: var(--font-sm) 
+}
