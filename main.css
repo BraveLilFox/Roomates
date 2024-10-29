@@ -94,3 +94,7 @@ input[type="submit"]{
 .spacer{
     margin: 1.5em 0 0 0;
 }
+
+hr{
+    margin-bottom: 1em;
+}
