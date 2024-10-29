@@ -9,7 +9,7 @@
 }
 
 html{
-    background-color: rgb(255, 213, 194);
+    background-color: #588B8B;
     font-size: 67.5%;
     font-family: 'Nunito Sans';
 }
@@ -101,9 +101,8 @@ hr{
 }
 
 #mtn-1{
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 200px solid red;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #F28F3B;
 }
