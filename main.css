@@ -22,7 +22,7 @@ html{
     --font-lg: 3rem;
     --font-xlg: 4rem;
     --font-xxlg: 6rem;
-    --trans-white: rgba(255,255,255,0.5);
+    --trans-white: rgba(255,255,255,0.8);
 }
 
 body{
