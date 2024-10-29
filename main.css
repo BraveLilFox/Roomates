@@ -7,8 +7,29 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 html{
     background-color: #78cf90;
     font-size: 67.5%;
     font-family: 'Nunito Sans';
+}
+
+:root{
+    --font-xxsm: 1rem;
+    --font-xsm: 1.2rem;
+    --font-sm: 1.6rem;
+    --font-md: 2.4rem;
+    --font-lg: 3rem;
+    --font-xlg: 4rem;
+    --font-xxlg: 6rem;
+}
+.container{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    width: 80vmin;
+    padding: 10em 5em;
+    border-radius: 3em;
 }
