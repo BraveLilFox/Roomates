@@ -22,6 +22,7 @@ html{
     --font-lg: 3rem;
     --font-xlg: 4rem;
     --font-xxlg: 6rem;
+    --trans-white: rgba(255,255,255,0.5);
 }
 
 body{
@@ -34,7 +35,7 @@ body{
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
-    background-color: #fff;
+    background-color: var(--trans-white);
     width: 80vmin;
     padding: 2em 5em;
     border-radius: 3em;
