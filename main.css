@@ -39,6 +39,7 @@ body{
     width: 80vmin;
     padding: 2em 5em;
     border-radius: 3em;
+    z-index: 99;
 }
 
 h1{
