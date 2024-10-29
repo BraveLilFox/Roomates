@@ -58,9 +58,12 @@ fieldset{
 }
 
 p,
-legend,
-label{
+legend{
     font-size: var(--font-sm);
+}
+
+label{
+    font-size: var(--font-xsm);
 }
 
 p{
