@@ -35,17 +35,16 @@ html{
 }
 
 h1{
-    font-size: var(--font-lg);
+    font-size: var(--font-md);
+    text-align: center;
+}
+
+p,
+legend,
+label{
+    font-size: var(--font-sm);
 }
 
 p{
-    font-size: var(--font-md);
-}
-
-legend{
-    font-size: var(--font-md);
-}
-
-label{
-   font-size: var(--font-sm) 
+    text-align: center;
 }
