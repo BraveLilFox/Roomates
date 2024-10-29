@@ -2,8 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
         <title>Roomates</title>
         
         <link rel="stylesheet" href="main.css">
@@ -12,14 +12,32 @@
         <div class="container">
             <h1 class="survey-title">Cat Feeding Log</h1>
             <p>Did you feed the cats? If so then clock in!</p>
+            <p>Or if you need help knowing what to feed them click <a href="feeding-guide" class="feeding-guide" target="_blank">HERE</a></p>
             <form class="feeding-log">
                 <fieldset>
                     <label for="dropdown">Who fed them?
                         <select id="dropdown" name="dropdown">
-                            
+                            <option value="Dove">Dove</option>
+                            <option value="Kaide">Kaide</option>
+                            <option value="Ren">Ren</option>
                         </select>
                     </label>
+
+                    <legend for="meal-time">Which meal was it?
+                        <label for="breakfast">
+                            <input type="radio" id="breakfast" name="breakfast" value="breakfast" class="inline">Breakfast
+                        </label>
+
+                        <label for="lunch/snack">
+                            <input type="radio" id="lunch-snack" name="lunch-snack" value="lunch-snack" class="inline">Breakfast
+                        </label>
+
+                        <label for="dinner">
+                            <input type="radio" id="dinner" name="dinner" value="dinner" class="inline">Breakfast
+                        </label>
+                    </legend>
                 </fieldset>
+                <input type="submit" name="submit" id="submit" class="inline">
             </form>
         </div>
     </body>
