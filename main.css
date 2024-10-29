@@ -76,8 +76,7 @@ label{
 }
 
 input, 
-select,
-textarea{
+select{
     display: block;
     width: 95%;
     margin: 1em 0 0 0;
@@ -85,6 +84,9 @@ textarea{
 
 textarea{
     resize: none;
+    display: block:
+    width: 100%;
+    margin-top: 1em;
 }
 
 .inline{
