@@ -63,6 +63,10 @@ legend,
     font-size: var(--font-sm);
 }
 
+.content{
+    font-size: var(--font-xsm);
+}
+
 label{
     font-size: var(--font-xsm);
 }
