@@ -132,10 +132,21 @@ hr{
 } */
 
 /* full page container */
- ripple-background{
+.ripple-background{
     position: relative;
     width: 100vw;
     height: 100vh;
     background-color: #588B8B;
     overflow: hidden;
+}
+
+.ripple-background:before,
+.ripple-background:after{
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    left: 50;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%
 }
