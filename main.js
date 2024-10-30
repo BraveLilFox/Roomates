@@ -4,6 +4,10 @@ document.getElementById('feedingLog').addEventListener("submit", async function(
     // get selected radio btn
     const selectedOption_1 = document.querySelector('input[name="roommate"]:checked').value;
     
+    const selectedOption_2 = document.getElementById('dropdown').value;
+    
     // update page/content immediately
     document.getElementById("displayContent_1").textContent = selectedOption_1;
+    
+    document.getElementById("displayContent_2").textContent = selectedOption_2;
 });
