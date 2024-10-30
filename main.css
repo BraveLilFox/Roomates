@@ -58,7 +58,8 @@ fieldset{
 }
 
 p,
-legend{
+legend,
+.special-case{
     font-size: var(--font-sm);
 }
 
