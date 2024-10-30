@@ -140,6 +140,7 @@ hr{
     overflow: hidden;
 }
 
+/* ripple circles */
 .ripple-background:before,
 .ripple-background:after{
     content: ' ';
@@ -149,4 +150,8 @@ hr{
     width: 100px;
     height: 100px;
     border-radius: 50%
+    background-color: rgba(255,255,255,0.2);
+    transform: translate(-50%,-50%) scale(0);
+    animation: ripple-animation 4s infinite ease-out;
+    pointer-events: none;
 }
