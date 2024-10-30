@@ -9,7 +9,7 @@
 }
 
 html{
-    background-color: #588B8B;
+    background-color: white;
     font-size: 67.5%;
     font-family: 'Nunito Sans';
 }
@@ -131,8 +131,11 @@ hr{
     left: 60px;
 } */
 
-.paw-print{
+/* full page container */
+ ripple-background{
     position: relative;
-    top: 50%;
-    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    background-color: #588B8B;
+    overflow: hidden;
 }
