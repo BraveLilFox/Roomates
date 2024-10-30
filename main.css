@@ -141,8 +141,8 @@ hr{
 }
 
 /* ripple circles */
-.ripple-background:before,
-.ripple-background:after{
+.ripple-background::before,
+.ripple-background::after{
     content: ' ';
     position: absolute;
     top: 50%;
