@@ -155,3 +155,21 @@ hr{
     animation: ripple-animation 4s infinite ease-out;
     pointer-events: none;
 }
+
+/* second ripple, offset timing */
+.ripple-background::after{
+    animation-delay: 2s;
+}
+
+/* animation for ripple effect  */
+@keyframes ripple-animation{
+    0% {
+        transform: translate(-50%,-50%) scale(0);
+        opacity: 1;
+    }
+    
+    100% {
+        transform: translate(-50%,-50%) scale(10);
+        opacity: 0;
+    }
+}
