@@ -6,7 +6,7 @@ document.getElementById('feedingLog').addEventListener("submit", async function(
     
     const selectedOption_2 = document.getElementById('dropdown').value;
     
-    const selectedOption_3 = document.getElementById('grivence').value;
+    const selectedOption_3 = document.getElementById('grievance').value;
     
     // update page/content immediately
     document.getElementById("displayContent_1").textContent = selectedOption_1;
