@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Roomates</title>
+        
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="survey-title">Cat Feeding Log</h1>
+            <div id="displayContent"></div>
+            <p>Click For <a href="feeding-guide.html" class="feeding-guide" target="_blank">Feeding Guide</a></p>
+            <hr>
+            <form class="feeding-log" id="feedingLog">
+                <fieldset>
+
+                    <legend class="spacer" required>Who fed them?
+                        <label for="dove">
+                            <input type="radio" id="dove" name="roommate" value="Dove" class="inline">Dove
+                        </label>
+
+                        <label for="kaide">
+                            <input type="radio" id="kaide" name="roommate" value="Kaide" class="inline">Kaide
+                        </label>
+
+                        <label for="ren">
+                            <input type="radio" id="ren" name="roommate" value="Ren" class="inline">Ren
+                        </label>
+                    </legend>
+
+                    <!--
+                    <label for="dropdown" class="spacer special-case">Mealtime?
+                        <select id="dropdown" name="dropdown">
+                            <option value="" class="grey-out" disabled="disabled" selected="selected">options</option>
+                            <option value="Breakfast">Breakfast</option>
+                            <option value="Lunch">Lunch/Snack</option>
+                            <option value="Dinner">Dinner</option>
+                        </select>
+                    </label>
+                    -->
+
+                    <legend for="grievance" class="spacer">Grievances to declare:   
+                        <textarea id="grievance" name="grievance" rows="2" cols="27" placeholder="Write them here"></textarea>
+                    </legend>
+                    
+                </fieldset>
+                <input type="submit" name="submit" id="submit" class="inline">
+            </form>
+        </div>
+        <div class="ripple-background" id="ripple-background"></div>
+
+        <!-- Scripts -->
+        <script src="main.js"></script>
+        <!-- Server -->
+        <script src="server.js"></script>
+        
+        <footer>
+            <p>© 2024 ArcticFoxDev by Kaide Ryder. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
