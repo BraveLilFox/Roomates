@@ -11,7 +11,7 @@ document.getElementById('feedingLog').addEventListener("submit", async function(
     const now = new Date();
     const hrs = now.getHours().toString().padStart(2, '0');
     const mins = now.getMinutes().toString().padStart(2, '0');
-    const formattedTime = '${hrs}:${mins}';
+    const formattedTime = "${hrs}:${mins}";
     // calculates to users local time
     
     
