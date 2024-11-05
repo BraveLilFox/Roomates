@@ -3,7 +3,10 @@ const app = express();
 
 app.use(express.json());
 
-// Define a route for the root path ('/')
+// static pages
+app.use('/css', express.static(__dirname + '/main.css'));
+app.use('/js', express.static(__dirname + '/main.js'));
+
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
