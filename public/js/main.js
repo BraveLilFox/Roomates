@@ -6,7 +6,9 @@ document.getElementById('feedingLog').addEventListener("submit", async function(
     const date = new Date(timestamp);
 
     const formattedDate = date.toLocaleDateString(); // calculates to users local time
-    const formattedTime = date.toLocaleTimeString(); // calculates to users local time
+    const time = Math.ceil(date); 
+    const formattedTime = time.toLocaleTimeString();
+    // calculates to users local time
     
     
     // get selected/inputed values from the form
