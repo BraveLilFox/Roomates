@@ -3,6 +3,11 @@ const app = express();
 
 app.use(express.json());
 
+// Define a route for the root path ('/')
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/public/index.html'); 
+});
+
 app.post("/update-content", (req, res) => {
     const { roommate, mealtime, grievance } = req.body;
 
