@@ -5,7 +5,9 @@ app.use(express.json());
 
 // Define a route for the root path ('/')
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/index.html'); 
+  res.sendFile(__dirname + '/index.html');
+  res.sendFile(__dirname + '/main.css');
+  res.sendFile(__dirname + '/main.js');
 });
 
 app.post("/update-content", (req, res) => {
